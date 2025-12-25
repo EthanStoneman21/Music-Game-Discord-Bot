@@ -11,10 +11,10 @@ leaderboard = int(os.getenv("LEADERBOARD"))
 answer_id = int(os.getenv("ANSWER_ID"))
 leaderboard_med = int(os.getenv("LEADERBOARD_MED"))
 
-song = "Rise & Fall"
-main_artist = "Currents"
-artist = "Currents"
-link = "https://open.spotify.com/track/0Ip46hm5I2g29iHzbyEMHv?si=8220c93f86df4eb8"
+song = "The Very First Christmas"
+main_artist = "Spongebob Squarepants"
+artist = "Spongebob Squarepants"
+link = "https://open.spotify.com/track/21DN71RhbOvXXS4ntzjzJR?si=8195b9d1bf0e4a87"
 answer = (f"[{song} by {artist}]({link})")
 
 class MyClient(discord.Client):
